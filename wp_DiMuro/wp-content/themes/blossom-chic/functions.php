@@ -1037,7 +1037,7 @@ function blossom_feminine_footer_bottom(){ ?>
                 blossom_feminine_get_footer_copyright();
                 
                 esc_html_e( ' Blossom Chic | Developed By ', 'blossom-chic' );
-                echo '<a href="' . esc_url( 'https://blossomthemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Blossom Themes', 'blossom-chic' ) . '</a>.';
+                echo '<a href="' . esc_url( 'https://blossomthemes.com/' ) .'" rel="nofollow" target="_blank">' . esc_html__( 'Blossom Themes - proudly modified by Luca Di Muro via VSCode', 'blossom-chic' ) . '</a>.';
                 
                 printf( esc_html__( ' Powered by %s', 'blossom-chic' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'blossom-chic' ) ) .'" target="_blank">WordPress</a>.' );
                 if ( function_exists( 'the_privacy_policy_link' ) ) {
